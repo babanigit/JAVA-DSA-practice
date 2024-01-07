@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class arrayPlay {
+    static Scanner sc = new Scanner(System.in);
+
+    public static void main(String[] args) {
+   
+
+        int n;  
+
+            System.out.print("Enter the number of elements you want to store: ");  
+            //reading the number of elements from the that we want to enter  
+            n=sc.nextInt();  
+            //creates an array in the memory of length 10  
+            int[] array = new int[10];  
+            System.out.println("Enter the elements of the array: ");  
+            
+            var data = 0;
+            for(int i=0; i<n; i++)  
+                {  
+                //reading array elements from the user   
+                array[i]=sc.nextInt();  
+                data +=  array[i];
+                }  
+
+                System.out.println(data);
+            // System.out.println("Array elements are: ");  
+            // accessing array elements using the for loop  
+            // for (int i=0; i<n; i++)   
+            //     {  
+            //     System.out.println(array[i]);  
+            //         }
+}
+}
