@@ -14,9 +14,9 @@ public class MulipleCatch {
             c[10] = 25;
         } 
         
-        // catch (ArithmeticException e) {
-        //     System.out.println("division by zero:" +e+ "\n");
-        // }
+        catch (ArithmeticException e) {
+            System.out.println("division by zero:" +e+ "\n");
+        }
 
          catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("array index out of bounds : " + e);
