@@ -1,3 +1,4 @@
+package easy;
 class TwoSum {
 
     static int[] twoSum(int[] nums, int target) {
