@@ -1,3 +1,4 @@
+package practice;
  class A {
     // abstract void meth();
 

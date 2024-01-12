@@ -1,3 +1,4 @@
+package practice;
 class One {
     int  a,b;
     One(int i,int j){
