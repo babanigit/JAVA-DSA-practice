@@ -1,3 +1,6 @@
+package medium;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LongestCommanPreflix3 {
@@ -7,13 +10,20 @@ public class LongestCommanPreflix3 {
     public static String longestCommonPrefix(String[] str) {
 
         StringBuilder result = new StringBuilder();
+        Arrays.sort(str);
 
-        System.err.println();
-    
+        char[] first = str[0].toCharArray();
+        char[] last = str[str.length -1 ].toCharArray();
 
+        System.out.println(first +" "+ last);
 
+        for (int i = 0; i < first.length; i++) {
 
-
+            if (first[i] != last[i]) break;
+             
+            result.append(first[i]);
+        }
+      
         return result.toString();
     }
 
