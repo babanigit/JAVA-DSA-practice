@@ -1,4 +1,4 @@
-package easy;
+// package easy;
 
 // taking user input of strings
 
@@ -8,13 +8,15 @@ public class LongestCommanPreflix {
     static Scanner myObj = new Scanner(System.in);
 
     public static String LongestCommanPreflix(String[] strs) {
-        if (strs.length == 0) return "";
-            
-        for (int i = 0; i < strs[0].length(); ++i) { 
-           System.out.println(strs[0].length());
+        if (strs.length == 0)
+            return "";
+
+        for (int i = 0; i < strs[0].length(); ++i) {
+            System.out.println(strs[0].length());
             for (int j = 1; j < strs.length; ++j) {
-              System.err.println(strs.length);
-                if (i == strs[j].length() || strs[j].charAt(i) != strs[0].charAt(i)) return strs[0].substring(0, i);   
+                System.err.println(strs.length);
+                if (i == strs[j].length() || strs[j].charAt(i) != strs[0].charAt(i))
+                    return strs[0].substring(0, i);
             }
         }
         return strs[0];
@@ -26,7 +28,7 @@ public class LongestCommanPreflix {
         int stringData = myObj.nextInt();
 
         String[] str = new String[stringData];
-        
+
         for (int i = 0; i < stringData; i++) {
             // System.out.println("enter the " +i+ " number");
             str[i] = myObj.next();
