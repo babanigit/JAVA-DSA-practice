@@ -1,15 +1,24 @@
+import java.util.Arrays;
+
 public class MInFallPath {
 
-    public static int[][] dp = new int[101][101];
+   public static int minFallingPathSum(int[][] A) {
+    final int n = A.length;
 
-    public static int minFallingPathSum(int[][] matrix) {
-        int n = matrix.length;
-        int m = matrix[0].length;
+    for (int i = 1; i < n; ++i)
+
+      for (int j = 0; j < n; ++j) {
     
+        int min = Integer.MAX_VALUE;
+    
+        for (int k = Math.max(0, j - 1); k < Math.min(n, j + 2); ++k)
+    
+        min = Math.min(min, A[i - 1][k]);
+        A[i][j] += min;
+      }
 
-
-        return 0;
-    }
+    return Arrays.stream(A[n - 1]).min().getAsInt();
+  }
 
     public static void main(String[] args) {
 
