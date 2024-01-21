@@ -25,7 +25,7 @@ public class MInFallPath2 {
             return 0;
 
         if (i < 0 || i >= c) {
-            System.out.println("its running");
+            // System.out.println("its running");
             return Integer.MAX_VALUE;
 
         }
