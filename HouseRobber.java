@@ -15,6 +15,7 @@ public class HouseRobber {
 
             rob = newRob;
             System.out.println(rob);
+            
             noRob = newNoRob;
             System.out.println(noRob);
 
