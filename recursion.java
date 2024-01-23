@@ -5,7 +5,8 @@ public class recursion {
 
       System.out.println(k);
 
-      return k + sum(k - 1);
+      int j = sum( k - 1);
+      return k + j;
 
     } else {
       return 0;
