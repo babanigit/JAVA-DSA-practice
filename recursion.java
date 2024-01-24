@@ -1,4 +1,4 @@
-package recursion;
+
 public class recursion {
 
   public static int sum(int k) { // 10,9,8,7,6,..
@@ -6,9 +6,12 @@ public class recursion {
 
       System.out.println(k);
 
-      System.out.println("running before return");
-      return k + sum(k - 1);
+      int j = sum(k-1);
 
+
+      System.out.println("the value or j is : "+ j + " and K :" + k );
+      return k + j;
+  
     } else {
       return 0;
 
