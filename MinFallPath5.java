@@ -55,6 +55,7 @@ public class MinFallPath5 {
         if (true) {
             System.out.println("straight");
             straight = minFallingPathSum(A, row + 1, col, dp);
+            System.out.println("the straight value is " + straight);
         }
 
         if (col < n - 1) {
@@ -63,6 +64,7 @@ public class MinFallPath5 {
         }
 
         System.out.println(left + " left and right " + right);
+        
         dp[row][col] = Math.min(left, Math.min(straight, right)) + A[row][col];
 
         return dp[row][col];
