@@ -1,3 +1,4 @@
+package medium;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,8 +6,6 @@ import java.util.List;
  * SequentialDigits1291
  */
 public class SequentialDigits1291 {
-
-
 
     public static List<Integer> sequentialDigits(int low, int high) {
 
