@@ -16,7 +16,7 @@ public class GroupAnagrams49 {
             // String chars = strs[i];  
             char[] chars = strs[i].toCharArray();
             System.out.println(chars);
-            Arrays.sort(chars); //for sorting you chat use string
+            Arrays.sort(chars); //for sorting you cant use string
             String sortedStr = new String(chars);
             
             if (!map.containsKey(sortedStr)) {
