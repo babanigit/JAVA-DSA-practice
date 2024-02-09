@@ -64,7 +64,7 @@ public class MinFallPath5 {
         }
 
         System.out.println(left + " left and right " + right);
-        
+
         dp[row][col] = Math.min(left, Math.min(straight, right)) + A[row][col];
 
         return dp[row][col];

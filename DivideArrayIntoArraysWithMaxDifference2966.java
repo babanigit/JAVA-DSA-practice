@@ -23,10 +23,6 @@ public class DivideArrayIntoArraysWithMaxDifference2966 {
             }
         }
 
-        
-
-
-
         return res;
     }
 
