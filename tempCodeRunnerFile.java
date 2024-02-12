@@ -17,6 +17,7 @@ public class MajorityElement169 {
                 majority = hash.get(n);
 
             }
+            System.out.println(hash);
         }
         return res;
     }
@@ -24,7 +25,7 @@ public class MajorityElement169 {
     public static void main(String[] args) {
 
         int[] arr = new int[] {
-                2, 3, 1, 1, 1, 2, 2, 2
+                2, 3, 1, 1, 1, 2, 2,2
         };
 
         System.out.println(majorityElement(arr));
