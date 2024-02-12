@@ -1,4 +1,4 @@
-package medium;
+// package medium;
 import java.util.Arrays;
 
 public class CloseString {
@@ -28,11 +28,6 @@ public class CloseString {
         System.out.println("b + a++ is "+ f1['b'-'a']++);
         System.out.println("b + a++ is "+ f1['b'-'a']++);
         System.out.println("b + a++ is "+ f1['b'-'a']++);
-
-
-
-        
-
 
         // for (int i = 0; i < word1.length(); i++) {
    
