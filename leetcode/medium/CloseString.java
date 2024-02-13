@@ -1,4 +1,4 @@
-// package medium;
+package medium;
 import java.util.Arrays;
 
 public class CloseString {
