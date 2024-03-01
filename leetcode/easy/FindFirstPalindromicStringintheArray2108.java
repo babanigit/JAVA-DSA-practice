@@ -1,4 +1,4 @@
-package easy;
+// package easy;
 public class FindFirstPalindromicStringintheArray2108 {
 
     public static String firstPalindrome(String[] words) {
