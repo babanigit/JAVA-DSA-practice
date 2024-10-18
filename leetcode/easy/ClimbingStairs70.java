@@ -1,4 +1,5 @@
-package easy;
+// package easy;
+
 public class ClimbingStairs70 {
 
     public static int ClimbingStairs(int n) {
