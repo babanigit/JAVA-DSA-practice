@@ -1,4 +1,3 @@
-package medium;
 public class RandomizedSet2 {
 
     public void RandomizedSet() {

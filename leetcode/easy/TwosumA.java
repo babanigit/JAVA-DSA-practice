@@ -1,8 +1,7 @@
-package easy;
 import java.util.HashMap;
 import java.util.Map;
 
-class TwoSumA{
+class TwoSumA {
 
     static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> complements = new HashMap<>();

@@ -1,4 +1,3 @@
-package easy;
 class TwoSum {
 
     static int[] twoSum(int[] nums, int target) {
@@ -18,8 +17,7 @@ class TwoSum {
     }
 
     public static void main(String[] args) {
-        int[] x = { 2, 7, 11, 15,2,10,7 };
-
+        int[] x = { 2, 7, 11, 15, 2, 10, 7 };
 
         int[] data = twoSum(x, 9);
 

@@ -1,4 +1,3 @@
-package medium;
 public class PlayersWithZeroOrOneLosses2 {
  
     

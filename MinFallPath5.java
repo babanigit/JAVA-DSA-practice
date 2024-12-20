@@ -45,24 +45,24 @@ public class MinFallPath5 {
             return dp[row][col] = A[row][col];
 
         int left = Integer.MAX_VALUE, right = Integer.MAX_VALUE;
-// if 1
+        // if 1
         if (col > 0) {
             System.out.println("\n col>0");
             left = minFallingPathSum(A, row + 1, col - 1, dp);
-            System.out.println("the value of left is "+ left);
+            System.out.println("the value of left is " + left);
         }
-// if 2
+        // if 2
         int straight;
         if (true) {
             System.out.println("straight");
             straight = minFallingPathSum(A, row + 1, col, dp);
             System.out.println("the straight value is " + straight);
         }
-// if 3
+        // if 3
         if (col < n - 1) {
             System.out.println("col< n-1 ");
             right = minFallingPathSum(A, row + 1, col + 1, dp);
-            System.out.println("the value of right is "+ right + "\n");
+            System.out.println("the value of right is " + right + "\n");
         }
 
         // System.out.println(left + " left and right " + right);

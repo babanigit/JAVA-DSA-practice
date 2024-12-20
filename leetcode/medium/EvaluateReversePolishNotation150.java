@@ -1,4 +1,3 @@
-package medium;
 import java.util.Stack;
 
 public class EvaluateReversePolishNotation150 {

@@ -27,10 +27,9 @@ public class RomanToInteger3 {
     public static void main(String[] args) {
         System.out.println("enter the roman character : ");
         String ch = scanner.next();
-        // let he user entered =  VXC
+        // let he user entered = VXC
         int returnInt = RomanToInt(ch);
         System.err.println(returnInt);
-
 
         System.out.println("ehhhlooo");
     }

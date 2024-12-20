@@ -1,4 +1,3 @@
-package medium;
 
 
 public class  RemoveLetterToEqualizeFrequency2423 {

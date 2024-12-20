@@ -1,5 +1,3 @@
-// package practice;
-
 import java.util.HashMap;
 
 public class HashMapDemo {
@@ -36,7 +34,7 @@ public class HashMapDemo {
        
 
         String k = hash_map.getOrDefault(15,"aniket");
-        int k2 = hash_map.getOrDefault(15,"aniket");
+        String k2 = hash_map.getOrDefault(15,"aniket");
 
         System.out.println(k +"  " +k2);
 

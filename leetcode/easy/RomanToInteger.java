@@ -1,5 +1,4 @@
 
-
 // package easy;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -22,7 +21,8 @@ public class RomanToInteger {
 
         for (int i = 0; i < s.length(); i++) {
 
-            System.out.println(i);            if (i > 0 && map.get(s.charAt(i)) > map.get(s.charAt(i - 1))) {
+            System.out.println(i);
+            if (i > 0 && map.get(s.charAt(i)) > map.get(s.charAt(i - 1))) {
 
                 System.out.println(s.charAt(i) + " > " + s.charAt(i - 1));
                 System.out.println("i :" + i);
@@ -46,7 +46,7 @@ public class RomanToInteger {
 
         System.out.println("enter the roman character : ");
         String ch = scanner.next();
-        // let he user entered =  VXC
+        // let he user entered = VXC
         int returnInt = RomanToInt(ch);
         System.err.println(returnInt);
     }
