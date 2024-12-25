@@ -12,6 +12,7 @@ public class ClimbingStairs70 {
 
         for (int i = 3; i <= n; i++) {
             dp[i] = dp[i - 1] + dp[i - 2];
+            System.out.println(" println:- " + i + " - " + dp[i]);
         }
         return dp[n];
     }
