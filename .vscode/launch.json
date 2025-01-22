@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BestTimeToBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "BestTimeToBuyAndSellStock",
+            "projectName": "JAVA-DSA-practice_43b2bceb"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
