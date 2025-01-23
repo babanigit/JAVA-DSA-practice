@@ -5,7 +5,6 @@ public class ReverseStringLoop {
 
         System.out.println("string length : " + str.length());
 
-
         for (int i = str.length() - 1; i >= 0; i--) {
             reversed += str.charAt(i);
         }
