@@ -4,7 +4,7 @@ class Node {
     Node next; // Reference to the next node in the list
 
     // Constructor to initialize the node with data
-    public Node(int data) {
+    public Node(int data) { 
         this.data = data;
         this.next = null; // By default, the next reference is null
     }
