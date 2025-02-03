@@ -4,7 +4,7 @@ public class checkpalindrome {
 
         StringBuilder sb1 = new StringBuilder(str);
 
-        if (sb1.reverse().toString().equals(str)) {
+        if (sb1.reverse().toString().toLowerCase().equals(str.toLowerCase())) {
             return true;
         } else {
             return false;
@@ -13,7 +13,6 @@ public class checkpalindrome {
 
     public static void main(String[] args) {
 
-        System.out.println("hello palindrome");
         System.out.println(checkpalindromeFun("madam"));
 
     }
