@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "checkIfArrayIsSortedAscenOrDesc",
+            "request": "launch",
+            "mainClass": "checkIfArrayIsSortedAscenOrDesc",
+            "projectName": "JAVA-DSA-practice_43b2bceb"
+        },
+        {
+            "type": "java",
             "name": "BestTimeToBuyAndSellStock",
             "request": "launch",
             "mainClass": "BestTimeToBuyAndSellStock",

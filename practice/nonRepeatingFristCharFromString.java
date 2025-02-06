@@ -9,8 +9,7 @@ public class nonRepeatingFristCharFromString {
 
         Map<Character, Integer> charCount = new LinkedHashMap<>();
 
-        char charArr[] = str.toCharArray();
-        for (char ch : charArr) {
+        for (char ch : str.toCharArray()) {
 
             charCount.put(ch, charCount.getOrDefault(ch, 0) + 1);
 
